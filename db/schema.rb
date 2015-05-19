@@ -11,6 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20150517225333) do
 
   create_table "pins", force: :cascade do |t|
@@ -19,6 +20,9 @@ ActiveRecord::Schema.define(version: 20150517225333) do
     t.datetime "updated_at",  null: false
     t.integer  "user_id"
   end
+=======
+ActiveRecord::Schema.define(version: 20150509192405) do
+>>>>>>> parent of 4ae220d... last changes
 
   add_index "pins", ["user_id"], name: "index_pins_on_user_id"
 
